@@ -1,0 +1,77 @@
+footer{
+   margin-bottom: 60px;
+}
+.footer__inner{
+   display: flex;
+   justify-content:space-between;
+   margin-bottom: 85px;
+}
+.footer__inner-logo img{
+   margin-bottom: 20px;
+}
+.footer__inner-company-text ul li a{
+   color: rgba(94, 98, 130, 1);
+   font-family: "Mulish";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+}
+.footer__inner-company-text ul li a:hover{
+   color: rgba(255, 113, 67, 1);
+}
+.footer__inner-company-text ul li a:active{
+   color: rgba(159, 57, 25, 1);
+}
+.footer__inner-company-text ul li:not(:last-child){
+   margin-bottom: 15px;
+}
+.footer__inner-company-title{
+color: rgba(8, 8, 9, 1);
+font-family: "DM Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 21px;
+   margin-bottom: 35px;
+}
+.footer__inner-logo-text{
+   max-width: 207px;
+   width: 100%;
+   color: rgba(94, 98, 130, 1);
+   font-family: "Mulish";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+}
+.footer__inner-icon-web{
+   max-width: 180px;
+   width: 100%;
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: -12px;
+}
+.footer__inner-icon-text{
+   font-family: "Mulish";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   color: rgba(94, 98, 130, 1);
+   margin-bottom: 15px;
+}
+.web-fb:hover{
+   transform: translateY(-10px)
+}
+.web-inst:hover{
+   transform: translateY(-10px)
+}
+.web-tw:hover{
+   transform: translateY(-10px)
+}
+.footer-end{
+   text-align: center;
+   font-family: "Mulish";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: rgba(94, 98, 130, 1);
+}
